@@ -13,15 +13,19 @@
 </head>
 <body>
     <div class="wrapper">
-      <div class="nav fullwidth border">
+      <div class="nav fullwidth border flexrow spacebtwn">
         <div class="logo"> <img src="./pngwing.com.png" alt=""></div>
-        <div class="search"></div>
-        <div class="">
+        <div class="search border "><i class="fa-solid fa-magnifying-glass"></i> <input type="text"></div>
+        <div id="iconCon" class="flexrow spacebtwn">
           <div><i class="fa-solid fa-heart"></i></div>
-          <div class=""><i class="fa-solid fa-cart-shopping"></i></div>
+          <div id="cart"><i class="fa-solid fa-cart-shopping"></i></div>
           <div><i class="fa-solid fa-user"></i></div>
         </div>
       </div>
+      <div class="fullwidth center title" style="height: 100px;">Poster Shop</div>
     </div>
+    <div id="posterItems" class="spaceeven fullwidth flexwrap">
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
